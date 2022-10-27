@@ -196,14 +196,16 @@ textarea{
 .ubicacion {
 
     background: #fff; 
+    margin: 20px; 
+    padding: 10px;
 }
 
-.col-mapa{
+.mapa{
 
     width: 60%;
-    height: 450px;
-    margin: auto; 
-    padding: 10px;
+    height: 80%;
+    margin: 20px; 
+    padding: 25px;
     border: 1px solid#165480;
 
 }
