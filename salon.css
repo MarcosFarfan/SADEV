@@ -126,6 +126,7 @@ header .textos-header{
     object-fit: cover;
     display: block;
 }
+<<<<<<< HEAD
 body{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
@@ -160,4 +161,36 @@ input,textarea{
 }
 textarea{
     
+=======
+
+
+
+
+.servicios {
+
+    background: #fff;
+
+    
+}
+
+.ubicacion {
+
+    background: #fff; 
+}
+
+.col-mapa{
+
+    width: 60%;
+    height: 450px;
+    margin: auto; 
+    padding: 10px;
+
+}
+
+.col-lg-4 col-md-6 col-sm-12 {
+
+    width: 200px;
+    height: 40px;
+
+>>>>>>> 93ef41ebaf2bb5bd0e8b8c703b5a557285c45b67
 }
