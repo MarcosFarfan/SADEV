@@ -123,3 +123,34 @@ header .textos-header{
     object-fit: cover;
     display: block;
 }
+
+
+
+
+.servicios {
+
+    background: #fff;
+
+    
+}
+
+.ubicacion {
+
+    background: #fff; 
+}
+
+.col-mapa{
+
+    width: 60%;
+    height: 450px;
+    margin: auto; 
+    padding: 10px;
+
+}
+
+.col-lg-4 col-md-6 col-sm-12 {
+
+    width: 200px;
+    height: 40px;
+
+}
