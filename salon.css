@@ -3,8 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-
+@keyframes animado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
 .contenedor{
     padding: 50px 0;
@@ -72,9 +80,11 @@ header .textos-header{
 
 /* ABOUT US */
 
+
 .contenedor-sobre-nosotros{
     display: flex;
      justify-content: space-evenly;
+     background-color: #fff;
 }
 .imagen-about-us{
     width: 48%;
@@ -103,10 +113,19 @@ header .textos-header{
 }
 
 /* GALERIA */
-
-.portafolio{
-    background: #fff;
+.servicios{
+    background-image: linear-gradient(135deg, rgb(132, 118, 192), rgb(126, 163, 196), rgb(203, 151, 214), rgb(135, 194, 181), rgb(86, 84, 132));
+   background-size: 500%; 
+   animation: animado 15s infinite;
 }
+.portafolio{
+    background-image: linear-gradient(135deg, rgb(132, 118, 192), rgb(126, 163, 196), rgb(203, 151, 214), rgb(135, 194, 181), rgb(86, 84, 132));
+  background-size: 500%; 
+   animation: animado 15s infinite;
+    width: 75px;
+    height: 100px;
+}
+
 .galeria-port{
     display: flex;
     justify-content: space-evenly;
@@ -123,5 +142,76 @@ header .textos-header{
     object-fit: cover;
     display: block;
 }
+<<<<<<< HEAD
 /*Carrusel*/
  
+=======
+<<<<<<< HEAD
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: auto;
+    box-sizing: border-box;
+    font-size: 17px;
+
+}
+textarea{
+    
+=======
+
+
+
+
+.servicios {
+
+    background: #fff;
+
+    
+}
+
+.ubicacion {
+
+    background: #fff; 
+}
+
+.col-mapa{
+
+    width: 60%;
+    height: 450px;
+    margin: auto; 
+    padding: 10px;
+
+}
+
+.col-lg-4 col-md-6 col-sm-12 {
+
+    width: 200px;
+    height: 40px;
+
+>>>>>>> 93ef41ebaf2bb5bd0e8b8c703b5a557285c45b67
+}
+>>>>>>> d9b95a49f2bf5d73e8a3c366011bae75d1ae8c3e
