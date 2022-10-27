@@ -145,6 +145,7 @@ header .textos-header{
     height: 450px;
     margin: auto; 
     padding: 10px;
+    border: 1px solid#165480;
 
 }
 
@@ -154,3 +155,8 @@ header .textos-header{
     height: 40px;
 
 }
+
+.galeria img {
+
+    width: 105%;
+    height: 450px;
