@@ -106,7 +106,10 @@ header .textos-header{
 
 .portafolio{
     background: #fff;
+    width: 75px;
+    height: 100px;
 }
+
 .galeria-port{
     display: flex;
     justify-content: space-evenly;
@@ -122,4 +125,39 @@ header .textos-header{
     height: 100%;
     object-fit: cover;
     display: block;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: auto;
+    box-sizing: border-box;
+    font-size: 17px;
+
+}
+textarea{
+    
 }
