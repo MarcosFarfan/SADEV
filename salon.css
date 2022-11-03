@@ -23,7 +23,7 @@
 
 }
 .titulo{
-    color: rgb(120, 34, 178);
+    color: rgb(157, 121, 15);
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -44,14 +44,15 @@ nav{
     text-align: right;
     padding: 30px 50px 0 0; 
 }
-nav > a{
+nav  a{
     text-decoration: none;
     color: white;
     font-weight: 300;
     margin-right: 10px;
 }
-nav > a:hover{
+nav a:hover{
     text-decoration: underline;
+    
 }
 header .textos-header{
     display: flex;
@@ -72,7 +73,7 @@ header .textos-header{
     color: #fff;
 }
 .wave{
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -84,6 +85,7 @@ header .textos-header{
     display: flex;
      justify-content: space-evenly;
      background-color: #fff;
+     z-index: 1;
 }
 .imagen-about-us{
     width: 48%;
@@ -93,6 +95,10 @@ header .textos-header{
 }
 .contenido-textos h3{
     margin-bottom: 15px;
+}
+.parrafo-incio{
+    margin: 10px;
+    padding: 20px;
 }
 .contenedor-textos h3 span{
     background: rgb(82, 11, 82);
@@ -113,16 +119,11 @@ header .textos-header{
 
 /* GALERIA */
 .servicios{
-    background-image: linear-gradient(135deg, rgb(132, 118, 192), rgb(126, 163, 196), rgb(203, 151, 214), rgb(135, 194, 181), rgb(86, 84, 132));
-   background-size: 500%; 
-   animation: animado 15s infinite;
+  
 }
-.portafolio{
-    background-image: linear-gradient(135deg, rgb(132, 118, 192), rgb(126, 163, 196), rgb(203, 151, 214), rgb(135, 194, 181), rgb(86, 84, 132));
-  background-size: 500%; 
-   animation: animado 15s infinite;
-    width: 75px;
-    height: 100px;
+.Portafolio{
+    background-color: #fff;
+    
 }
 
 .galeria-port{
@@ -130,16 +131,10 @@ header .textos-header{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.imagen-port{
-    width: 24%;
-    margin-bottom: 10px;
-
-}
-.imagen-port > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+.img-port{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
 }
 <<<<<<< HEAD
 /*Carrusel*/
@@ -178,18 +173,14 @@ input,textarea{
     font-size: 17px;
 
 }
-textarea{
+textarea{}
     
-=======
-
-
 
 
 .servicios {
-
-    background: #fff;
-
-    
+    background-image: linear-gradient(135deg, #ededac8c, rgb(207, 158, 158), #7087c18c,rgb(175, 156, 116), rgb(197, 192, 116));
+    background-size: 500%; 
+    animation: animado 5s infinite;
 }
 
 .ubicacion {
