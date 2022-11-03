@@ -186,17 +186,28 @@ textarea{}
 .ubicacion {
 
     background: #fff; 
-    margin: 20px; 
-    padding: 10px;
+    margin: 5px; 
+    padding: 5px;
 }
+
+
+.contac {
+
+    background: #fff; 
+    margin: 10px; 
+    margin-top: 90px;
+    padding: 5px;
+
+}
+
+
 
 .mapa{
 
-    width: 60%;
-    height: 80%;
-    margin: 20px; 
-    padding: 25px;
-    border: 1px solid#165480;
+ 
+    margin: 10px; 
+    padding: 10px;
+    border: 2px solid#165480;
 
 }
 
