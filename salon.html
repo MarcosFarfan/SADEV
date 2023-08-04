@@ -3,50 +3,45 @@
 
     <head>
 
-        <title>Salón de Eventos</title>
-        <link rel="stylesheet" href="salon.css">
+        <title>Eventos</title>
+
+        <link rel="stylesheet" href="Style/salon.css">
         <link rel="shortcut icon" href="" type="image/x-icon">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+       
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <meta charset="UTF-8">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
      </head>
 
     <body>
             
       <header>
-        <!-- Seccion danVidela -->
+        
+        <!-- NAV -->
 
         <header>
           <nav class="navbar navbar-expand-lg navbar-light bg-light" style= "background-color: #e3f2fd;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">SALÓN SADEV</a>
+              <a class="navbar-brand" href="#">LOGO</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+              
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#Eventos">Eventos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Portafolio">Subí tu foto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#servicios">Servicios Generales</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#contac" tabindex="-1" aria-disabled="">Ubicación</a>
-                  </li>
+                  <a href="edit.php">Actualizar</a>
+                </li>
                 </ul>
               </div>
             </div>
+
+            
+          
+
           </nav>
       
          
-
-
         <section class="textos-header">
           <h1>Festeja tus fiestas al máximo!!</h1>
           <h2>Hasta 40% de descuento</h2>
@@ -54,33 +49,30 @@
         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-2.03,64.64 C181.37,-41.94 295.37,171.21 500.00,49.99 L500.00,150.00 L-2.03,152.46 Z" style="stroke: none; fill: #fff;"></path></svg></div>
       </header>
       <main>
+
+        <!-- ABOUT US -->
+
         <section class="contenedor-sobre-nosotros">
-          <div>
-            <h2 class="titulo">Sobre el lugar</h2>
+          <div class="contenido-textos">
+            <h2 class="titulo titulo-sobre-lugar">Sobre el lugar</h2>
             <p class="parrafo-inicio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam eum dolore iure optio cupiditate omnis eos voluptatibus quisquam magni nostrum enim, accusamus laudantium facilis nisi quis mollitia possimus. Soluta.
             Rerum ea blanditiis iure quae, illum ad et libero, corporis omnis, quasi totam consequatur sequi quaerat fugit hic laboriosam optio reiciendis voluptate. Provident modi ea quod fuga?</p>
           </div>
+          <a href="edit.php">Actualizar</a>
           <figure class="figura-inicio">
-            <img src="./imagenes/imagen 2d.webp" class="img-inicio">
+            <img src="style/niños.jpg" class="img-inicio">
           </figure>
         </section>
-         <!-- Termina seccion danVidela -->
 
+        <!-- CARRUSEL  -->
 
-        <!-- CARRUSEL EVENTOS  -->
-
-   <!-- CARRUSEL EVENTOS  -->
-
-        <!-- -->
-        <!-- -->
-        <!-- -->
 
         <section class="Eventos" id="Eventos">
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
            
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="cumpleaños.jpg" class="d-block w-100" width="850px" height="600px">
+                <img src="style/cumple-carrusel.jpg" class="d-block w-100" width="850px" height="600px">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>CUMPLEAÑOS</h5>
                   <a href="#" class="link-light">Toca aquí para más información</a>
@@ -88,14 +80,14 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="boda.jpg" class="d-block w-100" width="850px" height="600px">
+                <img src="style/pasteles.jpg" class="d-block w-100" width="850px" height="600px">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>BODA</h5>
                   <a href="#" class="link-light">Toca aquí para más información</a>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="navidad.jpg" class="d-block w-100"width="850px" height="600px" >
+                <img src="style/cup-hallow.webp" class="d-block w-100"width="850px" height="600px" >
                 <div class="carousel-caption d-none d-md-block">
                   <h5>OTROS</h5>
                   <a href="#" class="link-light">Toca aquí para más información</a>
@@ -122,104 +114,20 @@
 
 
 
-        <!-- -->
-        <!-- -->
-        <!-- -->
-        <!-- TERMINA GABI CARRUSEL -->
+        
 
-      
-
-        <!-- -->
-        <!-- -->
-        <!-- -->
-        <!-- TERMINA GABI CARRUSEL -->
-
-<<<<<<< HEAD
-          <!-- gALERIA MARCOS -->
+          <!-- GALERIA -->
          
-        <section class="Portafolio" id="Portafolio">
-            <div class="contenedor">
-              <h2 class="titulo">Eventos Boda</h2>
-              <div class="galeria">
-                <div class="foto">
-                  <img src="imagenes boda.pngg/2087_18960fotoalgr.jpg" class="img-port">
-                  
-                  <img src="imagenes boda.pngg/salon-de-fiestas.jpeg" class="img-port">
-                  
-                  </div>
-                </div>
-                  <div class="fotos">
-                    <h2 class="sub-titulo">Eventos Cumpleaños</h2>
-                    <img src="imagenes cumpleaños.pngg/fiesta-cumpleanos-deco.webp" class="img-port">
-=======
-          <div class="contenedor">
-            <h2 class="titulo">Eventos Boda</h2>
-           
-                
-                <img id="img_center"src="imagenes boda.pngg/2087_18960fotoalgr.jpg" alt=" Imagen de boda" width="300">
-                
-                <img id="img_center"src="imagenes boda.pngg/salon-de-fiestas.jpeg" alt="" width="300" height="220">
-              </div>
-                </div>
-              </div>
-                <div class="foto">
-                  <h2 class="titulo">Eventos Cumpleaños</h2>
-                  <img id="img_center"src="imagenes cumpleaños.pngg/fiesta-cumpleanos-deco.webp" alt="" width="300">
-                  
-                  <img id="img_center"src="imagenes cumpleaños.pngg/Ideas-para-fiestas-de-cumpleaños.jpg" alt="" width="300">
-                  <p></p>
-                  </div>
-                </div>
-                  <div class="foto">
-                    <h2 class="titulo">Eventos Egresados</h2>
-                    <img id="img_center"src="imagenes egresado.pngg/Fiestas de Egresados.jpg" alt="" width="300">
-                    
-                    <img id="img_center"src="imagenes egresado.pngg/f608x342-114110_143833_15.jpeg" alt="" width="300">
->>>>>>> 784e79d ("ajuste img y agregue fondo ala paginba web")
-                    
-                    <img src="imagenes cumpleaños.pngg/Ideas-para-fiestas-de-cumpleaños.jpg" class="img-port">
-                    <p></p>
-                    </div>
-                  </div>
-                    <div class="foto">
-<<<<<<< HEAD
-                      <h2 class="sub-titulo">Eventos Egresados</h2>
-                      <img src="imagenes egresado.pngg/Fiestas de Egresados.jpg" class="img-port">
-                      
-                      <img src="imagenes egresado.pngg/f608x342-114110_143833_15.jpeg" class="img-port">
-                      
-                      </div>
-                  </div>
-                      <div class="foto">
-                        <h2 class="sub-titulo">Eventos Personalizado</h2>
-                        <img src="imagenes personalizado.pngg/15-1.jpg" class="img-port">
-                        
-                        <img src="imagenes personalizado.pngg/salones-para-eventos.png" class="img-port">
-                        
-                        </div>
-                  </div>
-                  <div class="foto">
-                    <img src="" alt="">
-                    <div class="hover-galeria">
-                    <img src="" alt="">
-                    
-                    </div>
-=======
-                      <h2 class="titulo">Eventos Personalizado</h2>
-                      <img id="img_center"src="imagenes personalizado.pngg/15-1.jpg" alt="" width="300">
-                      
-                      <img id="img_center"src="imagenes personalizado.pngg/salones-para-eventos.png" alt="" width="300">
-                      
-                      </div>
-                </div>
-                <div>
-
-                </div>
-                  
->>>>>>> 784e79d ("ajuste img y agregue fondo ala paginba web")
-                  </div>
-                </div>
-              </div>
+          <section class="gallery">
+            <div class="image-row">
+                <img src="style/anillos.jpg" alt="Imagen 1">
+                <img src="style/cumpleaños.jpg" alt="Imagen 2">
+                <img src="style/cupcake.jpg" alt="Imagen 3">
+            </div>
+            <div class="image-row">
+                <img src="style/MesaDorada.jpg" alt="Imagen 4">
+                <img src="style/MesaMorada.jpg" alt="Imagen 5">
+                <img src="style/DecoBlanco.jpg" alt="Imagen 6">
             </div>
         </section>
         <!-- termina galeria marcos -->
@@ -233,34 +141,45 @@
             <div class="row">
         
               <div class="col-lg-4 col-md-6 col-sm-12">
-                  
-                  <img src="./imagenes/cocktai.png" class="img-thumbnail" alt="...">
-                  <p><b>BARRA DE TRAGO <br>
-                      Creatividad y calidad en nuestros servicios de coctels y trago</b></p> 
+                <div class="icono-contenedor">
+                  <img src="style/copa-de-vino.png" class="img-thumbnail" alt="Icono de Copa de Vino">
+                </div>
+                <p><b>BARRA DE TRAGO <br>
+                    Creatividad y calidad en nuestros servicios de coctels y trago</b></p> 
               </div>
+              
               <div class="col-lg-4 col-md-6 col-sm-12">
-               
-                  <img src="./imagenes/parkin.png"class="img-thumbnail" alt="...">
+                <div class="icono-contenedor">
+                  <img src="style/car.png" class="img-thumbnail" alt="Icono de Copa de Vino">
+                </div>
                   <p><b>ESTACIONAMIENTO <br>
                       Predio cerrado para 100 autos</b></p> 
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12">
-                  <img src="./imagenes/handica.png"class="img-thumbnail" alt="...">
+                <div class="icono-contenedor">
+                  <img src="style/discapacidad.png" class="img-thumbnail" alt="Icono de Copa de Vino">
+                </div>
                   <p><b>ACCESO PARA PERSONAS CON DISCPACIDAD  <br>
                       Acceso total a todas las instalaciones</b></p> 
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12">
-                  <img src="./imagenes/policema.png" class="img-thumbnail" alt="...">
+                <div class="icono-contenedor">
+                  <img src="style/poli.png" class="img-thumbnail" alt="Icono de Copa de Vino">
+                </div>
                   <p><b>SEGURIDAD PRIVADA<br>
                       Servicio privado de seguridad durante todo el evento</b></p> 
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12">
-                  <img src="./imagenes/checkroo.png" class="img-thumbnail" alt="...">
+                <div class="icono-contenedor">
+                  <img src="style/ropa.png" class="img-thumbnail" alt="Icono de Copa de Vino">
+                </div>
                   <p><b>GUARDARROPA  <br>
                       Seguridad y comodidad para que solo disfrutes</b></p> 
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12">
-                  <img src="./imagenes/batteri.png" class="img-thumbnail" alt="...">
+                <div class="icono-contenedor">
+                  <img src="style/icon.png" class="img-thumbnail" alt="Icono de Copa de Vino">
+                </div>
                   <p><b> GRUPO ELECTROGENO <br>
                       Grupo electrogeno a dispositivo ante cualquier eventualidad</b></p> 
                   
@@ -318,11 +237,7 @@
 
         <!-- termina marcos contactos -->
 
-<<<<<<< HEAD
       <div class="contac" id="contac">
-=======
-      <body>
->>>>>>> 784e79d ("ajuste img y agregue fondo ala paginba web")
         <form action="">
         <h2> Contacto</h2>
         <input type="text" name="nombre" placeholder="nombre">
@@ -331,19 +246,10 @@
         <textarea name="mensaje" placeholder="escriba aqui su mensaje" ></textarea>
         <imput type="button" value="ENVIAR" id="boton">
         </form>
-<<<<<<< HEAD
    
      
 
       <footer>
-=======
-    
-      </body>
-
-     
-
-   <footer>
->>>>>>> 784e79d ("ajuste img y agregue fondo ala paginba web")
      <div class="contenedor-footer">
       <div class="foo">
         <h4>Enviar</h4>

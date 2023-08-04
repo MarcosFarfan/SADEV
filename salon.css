@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
 @keyframes animado{
     0%{
         background-position: 0% 50%;
@@ -14,19 +13,8 @@
     100%{
         background-position: 0% 50%;
     }
-=======
-body{
-
-    
-        margin: 0;
-        padding: 0;
-        background:url(fondo.PNG);
-        background-size: cover;
-        background-position: center;
-        font-family: sans-serif;
-    
->>>>>>> 784e79d ("ajuste img y agregue fondo ala paginba web")
 }
+
 .contenedor{
     padding: 50px 0;
     width: 90%;
@@ -36,11 +24,7 @@ body{
 
 }
 .titulo{
-<<<<<<< HEAD
     color: rgb(157, 121, 15);
-=======
-    color: rgb(34, 178, 178);
->>>>>>> 784e79d ("ajuste img y agregue fondo ala paginba web")
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -52,13 +36,7 @@ header{
     content: "";
     width: 100%;
     height: 600px;
-<<<<<<< HEAD
-    background-image: linear-gradient(180deg, #0000008c 0% ,#0000008c 100% ),url(./inicio.jpg);
-=======
-    background: hsla(222, 76%, 59%, 0.593);  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(187, 64%, 45%, 0.619), hsla(222, 76%, 59%, 0.614));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(175, 77%, 43%, 0.575), hsla(222, 76%, 59%, 0.618)) url(../); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
->>>>>>> 784e79d ("ajuste img y agregue fondo ala paginba web")
+    background-image: linear-gradient(180deg, #0000008c 0% ,#0000008c 100% ),url(ballons.jpg);
     background-size: cover;
     z-index: -1;
     position: relative;
@@ -103,142 +81,117 @@ header .textos-header{
 
 /* ABOUT US */
 
-
-.contenedor-sobre-nosotros{
+/* Estilos para pantallas más grandes */
+.contenedor-sobre-nosotros {
     display: flex;
-     justify-content: space-evenly;
-     background-color: #fff;
-     z-index: 1;
-}
-.imagen-about-us{
-    width: 48%;
-}
-.sobre-nosotros .contenido-textos{
-    width: 48%;
-}
-.contenido-textos h3{
-    margin-bottom: 15px;
-}
-.parrafo-incio{
-    margin: 10px;
-    padding: 20px;
-}
-.contenedor-textos h3 span{
-    background: rgb(11, 82, 79);
-    color: #fff;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    box-shadow: 0  0 6px 0 rgba(0,0,0,0);
-}
-.contenido-textos p{
-    padding: 0px 0px 30px 15px;
-    font-weight: 300;
-    text-align: justify;
-}
-
-<<<<<<< HEAD
-/* GALERIA */
-.servicios{
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   
-}
-.Portafolio{
-    background-color: #fff;
-    
-=======
-/* GALERIA SECCION MARCOS*/
-img{
-    width: 50%;
-    height: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px
-    
-}
-#img_center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#img_center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#img_center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#img_center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#img_center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#img_center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#img_center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#img_center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
-    padding: 20px
-    
-}
+  .contenido-textos {
+    flex: 1;
+    margin-right: 30px;
+  }
+  
+  .titulo {
+    margin-bottom: 15px;
+  }
+  
+  /* Clase para ajustar el margen del título */
+  .titulo-sobre-lugar {
+    margin-bottom: 30px;
+  }
+  
+  .parrafo-inicio {
+    margin-bottom: 20px;
+  }
+  
+  .img-inicio {
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 768px) {
+    .contenedor-sobre-nosotros {
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+  
+    .contenido-textos {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  
+    .img-inicio {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
 
-.portafolio{
-    background: #fff;
-    width: 75px;
-    height: 100px;
->>>>>>> 784e79d ("ajuste img y agregue fondo ala paginba web")
-}
 
-.galeria-port{
+/* GALERIA */
+
+
+.gallery {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center; /* Centrar la galería en la página */
 }
-.img-port{
-    width: 400px;
-    height: 300px;
-    display: inline-block;
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ocupar todo el ancho disponible */
+    max-width: 1200px; /* Limitar el ancho de cada fila */
+    margin: 10px 0; /* Espacio entre filas */
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+.image-row img {
+    width: 30%; /* Cada imagen ocupa el 30% del ancho en pantallas grandes */
+    max-width: 100%;
+    height: auto;
+    margin: 0 5px; /* Espacio entre imágenes */
+    box-sizing: border-box; /* Incluir el margen dentro del 30% */
+    border: 2px solid #ccc; /* Borde para las imágenes */
+    border-radius: 10px; /* Redondear bordes */
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .image-row {
+        flex-direction: column; /* Mostrar imágenes en columna */
+        align-items: center; /* Centrar imágenes */
+        margin: 10px 0; /* Espacio entre filas */
+    }
+
+    .image-row img {
+        width: 40%; /* Cada imagen ocupa el 40% del ancho en dispositivos móviles */
+        margin: 10px 0; /* Espacio entre imágenes */
+    }
+}
+
+
+
 /*Carrusel*/
  
-=======
-<<<<<<< HEAD
-=======
 
->>>>>>> 784e79d ("ajuste img y agregue fondo ala paginba web")
 body{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
 
 }
+
 form{
     width: 450px;
     margin: auto;
@@ -268,13 +221,6 @@ input,textarea{
 }
 textarea{}
     
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 784e79d ("ajuste img y agregue fondo ala paginba web")
-
 
 .servicios {
     background-image: linear-gradient(135deg, #ededac8c, rgb(207, 158, 158), #7087c18c,rgb(175, 156, 116), rgb(197, 192, 116));
@@ -316,8 +262,33 @@ textarea{}
     height: 40px;
 
 
-<<<<<<< HEAD
 }
+
+/* Estilos para la clase img-thumbnail (icono) */
+.img-thumbnail {
+    width: 80px; /* Ajusta el tamaño del icono según tus necesidades */
+    height: 80px; /* Ajusta el tamaño del icono según tus necesidades */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Contenedor para centrar el icono */
+  .icono-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Ajusta el alto del contenedor según tus necesidades */
+  }
+  
+  /* Estilos para el párrafo */
+  p {
+    text-align: center;
+  }
+  
+  
+  
+  
+  
 
 .foot {
 
@@ -325,6 +296,3 @@ textarea{}
    margin: 10px ;
 
 }
-=======
-}
->>>>>>> 784e79d ("ajuste img y agregue fondo ala paginba web")
